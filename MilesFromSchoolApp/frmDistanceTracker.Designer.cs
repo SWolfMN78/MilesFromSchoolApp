@@ -68,7 +68,7 @@
             // 
             this.txtUserInput.Location = new System.Drawing.Point(600, 50);
             this.txtUserInput.Name = "txtUserInput";
-            this.txtUserInput.Size = new System.Drawing.Size(100, 38);
+            this.txtUserInput.Size = new System.Drawing.Size(130, 38);
             this.txtUserInput.TabIndex = 2;
             // 
             // DistanceTracker

@@ -45,7 +45,7 @@
             // 
             // btnEnter
             // 
-            this.btnEnter.Location = new System.Drawing.Point(60, 130);
+            this.btnEnter.Location = new System.Drawing.Point(370, 150);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.Size = new System.Drawing.Size(180, 80);
             this.btnEnter.TabIndex = 0;
@@ -55,7 +55,7 @@
             // btnClose
             // 
             this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnClose.Location = new System.Drawing.Point(280, 130);
+            this.btnClose.Location = new System.Drawing.Point(590, 150);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(180, 80);
             this.btnClose.TabIndex = 1;

@@ -51,6 +51,7 @@
             this.btnEnter.TabIndex = 0;
             this.btnEnter.Text = "&Enter";
             this.btnEnter.UseVisualStyleBackColor = true;
+            this.btnEnter.Click += new System.EventHandler(this.btnEnter_Click);
             // 
             // btnClose
             // 
@@ -61,6 +62,7 @@
             this.btnClose.TabIndex = 1;
             this.btnClose.Text = "&Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // txtUserInput
             // 
@@ -75,7 +77,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnClose;
-            this.ClientSize = new System.Drawing.Size(829, 277);
+            this.ClientSize = new System.Drawing.Size(829, 270);
             this.Controls.Add(this.txtUserInput);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnEnter);
